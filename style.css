@@ -26,7 +26,7 @@ body{
     padding-top: 15px;
     padding-bottom: 11px;
     padding-left: 7px;
-    padding-right: 7px;
+    padding-right: 1%;
     text-decoration: none;
 }
 .navbar a:hover {
@@ -39,18 +39,21 @@ body{
 /* ^ NAVIGATION BAR ^ */
 
 @media (max-width: 780px) {
-    .navbar{
-    }
     .navbar h1{
         display: block;
         text-align: center;
         padding: 0px;
     }
     .navbar a{
-        padding: 0px;
+        text-align: center;
+        float: none;
         padding-left: 7px;
         padding-right: 7px;
         padding-top: 5px;
         padding-bottom: 5px;
+        margin-right: 0px;
+    }
+    .main{
+        margin-top: 265px;
     }
 }
