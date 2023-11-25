@@ -1,0 +1,56 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #FFFEE9;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #45c931;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.navbar h1{
+    color:#FFFEE9;
+    display: inline;
+    margin: 0px;
+    padding-left: 3%;
+}
+.navbar a{
+    color: #006601;
+    float: right;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #002a01;
+    border-bottom: 3px solid #006601;
+  }
+.main{
+    margin-top: 70px;
+}
+/* ^ NAVIGATION BAR ^ */
+
+@media (max-width: 780px) {
+    .navbar{
+    }
+    .navbar h1{
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+    .navbar a{
+        padding: 0px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
