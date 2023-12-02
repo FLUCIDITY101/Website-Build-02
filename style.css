@@ -64,10 +64,10 @@ body{
         top: 0;
         left: 0;
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .dropdown:hover{
-        height: 294px;
+        height: 331px;
         border-bottom: 3px solid #45c931;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
